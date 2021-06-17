@@ -1,0 +1,140 @@
+/* Universal */
+*{
+    margin:0;
+    padding: 0;
+}
+ body{
+     overflow: hidden;
+     
+ }
+/* Navbar */
+#navbar{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    /* margin: 10px; */
+    position: absolute;
+    right: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+#navbar ul li{
+    margin: 10px;
+    margin-top: 2.5vh;
+}
+#navbar ul li a{
+    color: white;
+    text-decoration:none;
+    font-size: 3vh;
+    padding: 5px;
+    font-family: 'Slabo 27px', serif;
+    transition: 0.2s;
+}
+#navbar ul li a:hover{
+border-radius: 20px;
+background-color: white;
+color: black;
+
+}
+#logoimg{
+    width:10vh;
+    padding: 3px;
+}
+#logo{
+    display: flex;
+    
+}
+
+/* Content */
+.content{
+    display: flex;
+    flex-direction: column;
+}
+#section1{
+    display: flex;
+   flex-direction: column;
+   background-color: rgba(0, 0, 0, 0.3);
+   margin:20px 10%;
+}
+#section1 span{
+    font-family: 'Comfortaa', cursive;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0.2px black;
+    text-align: center;
+}
+#section1 small{
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 10px;
+    font-family: 'Satisfy', cursive;
+}
+
+#section1::before{
+    
+    content: "";
+    background:url(https://upload.wikimedia.org/wikipedia/commons/3/35/Neckertal_20150527-6384.jpg)center center/cover
+    ;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 1;
+}
+#viewbutton{
+    width: 30vh;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: black 2px 2px;
+    transition: .2s;
+ 
+}
+
+
+
+#viewbutton:hover{
+    background-color: rgb(0, 81, 255);
+    color: white;
+    transform: scale(1.2);
+}
+#viewbutton a{
+    color: black;
+    text-decoration: none;
+}
+#navimg{
+    width: 15%;
+}
+
+/* Media Queries */
+@media only screen and (max-width:940px){
+    #navbar ul li a{
+        font-size: 2.4vh;
+    
+    }
+    #logoimg{
+        transform: scale(0.8);
+    }
+    #section1 span {
+        font-size:1.5rem ;
+    }
+    #section1 small{
+        font-size: 0.9rem;
+    }
+ 
+    
+}
+
