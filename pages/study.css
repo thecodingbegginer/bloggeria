@@ -27,6 +27,7 @@ header {
     display: flex;
     flex-direction: rows;
     justify-content: center;
+    
 }
 
 .content::before {
@@ -48,15 +49,6 @@ header {
     flex-direction: column;
 }
 
-.notes {
-    background: linear-gradient(#56ab2f, #a8e063);
-    width: 40vw;
-    height: 82vh;
-    margin: 40px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
 
 #listen {
     color: black;
@@ -128,34 +120,4 @@ header {
     }
 }
 
-#classroom {
-    color: black;
-    font-size: 1.5rem;
-    padding: 14px;
-    display: block;
-    text-align: center;
-}
 
-#timer {
-    font-size: 2rem;
-}
-
-#notearea {
-    width: 85%;
-    height: 82%;
-    border: none;
-    border-radius: 0.2rem;
-    padding: 5px;
-}
-#save{
-margin: 1rem;
-padding: 0.5rem;
-font-size: 1vw;
-border-radius: 10px;
-transition:0.2s;
-}
-#save:hover{
-background-color: black;
-color: white;
-transform: scale(1.1);
-}
