@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+#headerspan {
+    margin: 20px;
+    padding: 10px;
+    font-size: 2rem;
+    font-family: 'Pangolin', cursive;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: rows;
+    justify-content: center;
+}
+
+.content::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url(https://free4kwallpapers.com/uploads/originals/2015/04/23/green-trees-with-lake-in-between.jpg) no-repeat center center/cover;
+}
+
+.music {
+    background: linear-gradient(#43cea2, #185a9d);
+    width: 40vw;
+    height: 82vh;
+    margin: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.notes {
+    background: linear-gradient(#56ab2f, #a8e063);
+    width: 40vw;
+    height: 82vh;
+    margin: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#listen {
+    color: black;
+    font-size: 1.5rem;
+    padding: 14px;
+    display: block;
+    text-align: center;
+}
+
+#musicbar {
+    margin: 20px;
+    border: 2px solid white;
+    height: 10%;
+    width: 60%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.582);
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+#play {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: white;
+    border-radius: 20%;
+    padding: 0.3vw;
+    cursor: pointer;
+    margin: 5px;
+    margin-right: 1rem;
+    transition: 0.2s;
+}
+
+#pause {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: white;
+    border-radius: 20%;
+    padding: 0.3vw;
+    cursor: pointer;
+    margin: 5px;
+    margin-right: 1rem;
+    transition: 0.2s;
+}
+
+#play:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+#pause:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+.songbtn {
+    width: 70%;
+}
+
+#dj {
+    width: 70%;
+    animation-duration: 150ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spinner {
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+#classroom {
+    color: black;
+    font-size: 1.5rem;
+    padding: 14px;
+    display: block;
+    text-align: center;
+}
+
+#timer {
+    font-size: 2rem;
+}
+
+#notearea {
+    width: 85%;
+    height: 82%;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 5px;
+}
+#save{
+margin: 1rem;
+padding: 0.5rem;
+font-size: 1vw;
+border-radius: 10px;
+transition:0.2s;
+}
+#save:hover{
+background-color: black;
+color: white;
+transform: scale(1.1);
+}
