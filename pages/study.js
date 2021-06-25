@@ -1,4 +1,4 @@
-var music = new Audio('../assets/music/1.mp3')
+var music = new Audio('https://github.com/thecodingbegginer/bloggeria/raw/main/assets/music/1.mp3')
 function play() {
     music.play();
     music.muted = false;
