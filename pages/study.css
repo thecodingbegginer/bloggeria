@@ -27,7 +27,7 @@ header {
     display: flex;
     flex-direction: rows;
     justify-content: center;
-    
+
 }
 
 .content::before {
@@ -47,6 +47,8 @@ header {
     align-items: center;
     display: flex;
     flex-direction: column;
+    border: 5px solid black;
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 5px;
 }
 
 
@@ -62,7 +64,7 @@ header {
     margin: 20px;
     border: 2px solid white;
     height: 10%;
-    width: 60%;
+    width: 30%;
     display: flex;
     background-color: rgba(0, 0, 0, 0.582);
     justify-content: center;
@@ -76,7 +78,7 @@ header {
     padding: 0.3vw;
     cursor: pointer;
     margin: 5px;
-    margin-right: 1rem;
+    margin-right: 0.5rem;
     transition: 0.2s;
 }
 
@@ -87,7 +89,7 @@ header {
     padding: 0.3vw;
     cursor: pointer;
     margin: 5px;
-    margin-right: 1rem;
+    margin-left: 0.5rem;
     transition: 0.2s;
 }
 
