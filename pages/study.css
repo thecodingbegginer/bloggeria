@@ -64,7 +64,7 @@ header {
     margin: 20px;
     border: 2px solid white;
     height: 10%;
-    width: 30%;
+    width: fit-content;
     display: flex;
     background-color: rgba(0, 0, 0, 0.582);
     justify-content: center;
@@ -123,3 +123,8 @@ header {
 }
 
 
+@media only screen and (max-width:1000px){
+    .music{
+        width: 60vw;
+    }
+}
