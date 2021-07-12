@@ -1,4 +1,4 @@
-var music = new Audio('https://download2275.mediafire.com/9rdglzzjf3hg/vka6d9n5fi60hma/Website+Music.mp3')
+var music = new Audio('https://mega.nz/file/ps4iRB5T#XRVJeKZfbwptvXB57-8Dgtcj1QpvOJuQD5F6uDgW5FM')
 function play() {
     music.play();
     music.muted = false;

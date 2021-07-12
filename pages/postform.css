@@ -17,7 +17,7 @@ justify-content: center;
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: url(https://wallpapercave.com/wp/wp4600617.jpg) center center/cover;
+    background: url(../assets/postform.jpg) center center/cover;
     position: absolute;
 }
 .card{
