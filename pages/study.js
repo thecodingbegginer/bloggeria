@@ -1,4 +1,4 @@
-var music = new Audio('https://download939.mediafire.com/rckj9dez1jfg/vka6d9n5fi60hma/Website+Music.mp3')
+var music = new Audio('https://media.ashram.org/hariomaudio_satsang/Aakhir-Kab-Tak/Aakhir-Kab-Tak-1.mp3?download')
 function play() {
     music.play();
     music.muted = false;
