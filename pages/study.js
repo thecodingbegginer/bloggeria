@@ -1,4 +1,4 @@
-var music = new Audio('https://media.ashram.org/hariomaudio_satsang/Aakhir-Kab-Tak/Aakhir-Kab-Tak-1.mp3?download')
+var music = new Audio('https://www.mediafire.com/file/0oiyila3x1w9021/mixkit-raising-me-higher-34.mp3/file')
 function play() {
     music.play();
     music.muted = false;
